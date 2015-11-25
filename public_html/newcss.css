@@ -36,6 +36,17 @@ body{
 #header>#img{
  display: inline;
 }
+#header>#more{
+    color: red;
+    background: white ;
+        border: red solid 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+          margin-left: 995px; 
+       position: absolute;
+       top: 20px;
+       right: 20px;
+}
 #menu{
     margin-right: 413px;
     
@@ -87,14 +98,8 @@ body{
     position: relative;
      padding: 0px 10px;
 }
-#img1>#more{
-    color: green;
-    background: white ;
-        border: red solid 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-          margin-left: 995px; 
-          position: relative;
-                 top: -450px;
-                 right: 20px;
+
+#his{
+    color: white;
+    margin-left: 400px;
 }
