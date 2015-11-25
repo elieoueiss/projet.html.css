@@ -1,5 +1,5 @@
 body{
-     background: linear-gradient(blue, black 5%);
+     background: linear-gradient(orangered, black 20%);
    
 }
 
@@ -9,7 +9,7 @@ body{
 }
 #header{
      
-    background-color: blue;
+    
     border: white solid 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -19,15 +19,15 @@ body{
 #header>img{
     margin-left: 1000px;
 }
-#header>h1>a{
-    color:black;
+#header>h1{
+    color:white;
     text-decoration: none;
     text-transform: uppercase;
     font-variant: all-small-caps;
 }
 #header>h4{
     display: inline;
-    color: black;
+    color: white;
     text-transform: lowercase;
     font-size: 24px;
     position: relative;
@@ -37,20 +37,21 @@ body{
  display: inline;
 }
 #header>#more{
-    color: red;
-    background: white ;
-        border: red solid 5px;
+    color: white;
+   
+        border: orangered solid 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
           margin-left: 995px; 
        position: absolute;
        top: 20px;
        right: 20px;
+       font-style: italic;
 }
 #menu{
     margin-right: 413px;
+     background: linear-gradient(orangered, black 45%);
     
-    background-color: blue;
     border: white solid 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -74,21 +75,22 @@ body{
 }
 
 #menu>li>#selected{
-    background: blue;
-    color: black;
+    background: orangered;
+    color: white;
 }
 #news{
-    color:red;
+    color:white;
     
 }
 #news>#title{
-    border: blue solid 5px;
+     background: linear-gradient(orangered, black 45%);
+    border:orangered solid 5px;
       border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-right: 850px;
 }
 #news>li{
-    color: red;
+    color: orangered;
    font-size: 24px;
     font-style: normal;
 }
