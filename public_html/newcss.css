@@ -124,7 +124,12 @@ body{
     color: white;
     margin-left: 400px;
 }
-
+#his>pre{
+     position: relative;
+   left: 380px;
+   top: -135px;
+   font-size: 24px;
+}
 #sponcers{
     color: white;
     font-size: 32px;
@@ -151,6 +156,19 @@ body{
     left: 950px;
     top: -3250px;
 }
+#sponcers3{
+    color: white;
+    font-size: 32px;
+    
+     background: linear-gradient(orangered, black 25%);
+    border:white solid 5px;
+      border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    margin-right: 950px;
+    position: relative;
+    left: 950px;
+    top: -2650px;
+}
 #event{
     color: white;
   
@@ -163,4 +181,10 @@ body{
     border-top-right-radius: 20px;
     margin-right: 950px;
     
+}
+#wrapper>#top>a{
+     position: relative;
+    left: 1150px;
+    top: -800px;
+    font-size: 30px;
 }
