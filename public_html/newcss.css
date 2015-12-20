@@ -4,8 +4,6 @@ body{
 }
 
 #wrapper{
-  
-  
 }
 #header{
      
@@ -95,6 +93,7 @@ body{
     font-style: normal;
 }
 #img1{
+    
      margin-left: 250px;
     display: inline;
     position: relative;
@@ -111,15 +110,6 @@ body{
    top: 30px;
    
 }
-#img1>#note2{
-    font-style: italic;
-   color: white;
-     font-size: 24px; 
-   position: relative;
-   left: 260px;
-   top: 35px;
-   
-}
 #his{
     color: white;
     margin-left: 400px;
@@ -134,11 +124,11 @@ body{
     color: white;
     font-size: 32px;
     
-     background: linear-gradient(orangered, black 25%);
+     background: linear-gradient(orangered, black 5%);
     border:white solid 5px;
-      border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    margin-right: 950px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 970px;
     position: relative;
     left: 950px;
     top: -500px;
@@ -147,11 +137,11 @@ body{
     color: white;
     font-size: 32px;
     
-     background: linear-gradient(orangered, black 25%);
+     background: linear-gradient(orangered, black 5%);
     border:white solid 5px;
-      border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    margin-right: 950px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 970px;
     position: relative;
     left: 950px;
     top: -3250px;
@@ -160,11 +150,11 @@ body{
     color: white;
     font-size: 32px;
     
-     background: linear-gradient(orangered, black 25%);
+     background: linear-gradient(orangered, black 5%);
     border:white solid 5px;
-      border-top-left-radius: 20px;
-    border-top-right-radius: 50px;
-    margin-right: 950px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 970px;
     position: relative;
     left: 950px;
     top: -2650px;
@@ -188,3 +178,17 @@ body{
     top: -800px;
     font-size: 30px;
 }
+#text{
+font-size: 18px;
+    color: white;
+     border:white solid 5px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   margin-right: 935px;
+   position: relative;
+   top: -3898px;
+   
+}
+
+    
+    
