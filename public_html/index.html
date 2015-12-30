@@ -7,7 +7,7 @@
         <link href="newcss.css" rel="stylesheet"/>
        
     </head>
-    <body>
+    <body onload="changeColor()">
         <div id="wrapper">
            <div id="header">
                
@@ -15,7 +15,25 @@
                 
                 <h4>2015-2016</h4>
                 <a title="merry christmas"><img src="images/redsapin.jpg" alt="christmas" height="150" width="250" /></a>
-                <h2 id="more">Merry/christmas#keserwan</h2>
+                <p id="more">Merry/christmas#keserwan</p>
+                
+                <script>
+                    var coloring;
+            function changeColor(){
+                coloring = window.setInterval(getColor, 2000);
+            }
+            function getColor(){
+                var color;
+                var rnd = Math.random();
+                if(rnd<0.34){
+                    color = "blue";
+                }else if(rnd<0.67){
+                    color = "red";
+                }
+                document.getElementById("more").style.color 
+                        = color;
+            }
+            </script>
                 
             </div>
         <ul id="menu">
@@ -29,6 +47,27 @@
                 <a title="صورة لقرية زعرور كسروان من الأرشيف"><img src="images/1.jpg" alt="keserwan" height="371" width="660" /></a>
         <div id="note"> لبنان  ينتظر الثلوج في فصل الشتاء في كمية </div>
         
+       <p id="myParagraph">check your name</p>
+        <input type="text" id="myName">
+        <input type="button" value="Show it" 
+               onclick="getName()">
+        <script>
+            function getName(){
+                window.alert("welcome"+" "+ document.
+                        getElementById("myName").value + "  "+"to keserwen website");
+                
+                var myParagraph = 
+                        document.
+                        getElementById("myParagraph");
+                myParagraph.style.fontSize = "20px";
+                myParagraph.style.color = "blue";
+                
+               
+            }
+        </script>
+        
+        
+     
         
         </div>
             <div id="sponcers">
