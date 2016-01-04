@@ -5,7 +5,12 @@
         <title>Keserwan</title>
         <meta charset="UTF-8">
         <link href="newcss.css" rel="stylesheet"/>
-       
+      <style>
+            #mydiv{
+               
+                 background-color:black;
+            }
+        </style>
     </head>
     <body onload="changeColor()">
         <div id="wrapper">
@@ -38,9 +43,18 @@
             </div>
         <ul id="menu">
                 <li><a href="index.html" id="selected">Home</a></li>
-                <li><a href="newskeserwen.html">News</a></li>
-                <li><a href="hist&geo.html" title="history and geography">hist&geo</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="newskeserwen.html" onmouseover="this.style.
+                             backgroundColor = 'orangered'"
+             onmouseout="this.
+                             style.backgroundColor = 'black'">News</a></li>
+                <li><a href="hist&geo.html" title="history and geography" onmouseover="this.style.
+                             backgroundColor = 'orangered'"
+             onmouseout="this.
+                             style.backgroundColor = 'black'">hist&geo</a></li>
+                <li><a href="events.html" onmouseover="this.style.
+                             backgroundColor = 'orangered'"
+             onmouseout="this.
+                             style.backgroundColor = 'black'">Events</a></li>
                
             </ul>
             <div id="img1">
@@ -48,7 +62,7 @@
         <div id="note"> لبنان  ينتظر الثلوج في فصل الشتاء في كمية </div>
         
        <p id="myParagraph">check your name</p>
-        <input type="text" id="myName">
+        <input type="text" id="myName" onfocus="this.style.borderColor='red'">
         <input type="button" value="Show it" 
                onclick="getName()">
         <script>
