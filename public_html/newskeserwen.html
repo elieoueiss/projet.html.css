@@ -5,13 +5,25 @@
         <title>news</title>
         <meta charset="UTF-8">
        <link href="newcss.css" rel="stylesheet"/>
+       <script src="jquery-2.1.3.js">
+        </script>
+        
+        <script>
+            function changeFontSize(){
+                document.getElementById("p1").style.fontSize="50px";
+            }
+            
+            $(document).ready(function(){
+               $("#p2").css("font-size","40px"); 
+            });
+        </script>
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
                
-                <h1>KESERWAN-LEBANON</h1>
-                         <h4>2015-2016</h4>
+                <p id="p1" onmouseover="this.style.color='white'">KESERWAN-LEBANON</p>
+                         <p id="p2" onmouseover="this.style.color='white'">2015-2016</p>
                          <a title="merry christmas"><img src="images/redsapin.jpg" alt="christmas" height="120" width="200" /></a>
                      <h2 id="more">Merry/christmas#keserwan</h2>
             </div>
