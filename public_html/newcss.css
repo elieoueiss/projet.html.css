@@ -114,6 +114,9 @@ body{
 #his{
     color: white;
     margin-left: 400px;
+    position: relative;
+    left: -150px;
+    top: 200px;
 }
 #his>pre{
      position: relative;
@@ -190,6 +193,13 @@ font-size: 18px;
    top: -3898px;
    
 }
-
+#color{
+    color: white;
+}
+#top1{
+    font-size: 30px;
+    position: relative;
+    top: -200px;
+}
     
     

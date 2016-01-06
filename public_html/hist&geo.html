@@ -5,9 +5,8 @@
         <title>history and geography</title>
         <meta charset="UTF-8">
         <link href="newcss.css" rel="stylesheet"/>
-        <script src="jquery-2.1.3.js">
-        </script>
-        
+        <script src="jquery-2.1.3.js"></script>
+         
         <script>
             function changeFontSize(){
                 document.getElementById("p1").style.fontSize="50px";
@@ -15,6 +14,14 @@
             
             $(document).ready(function(){
                $("#p2").css("font-size","40px"); 
+            });
+        </script>
+        <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).css("color","white").ready(function() {
+                $(":radio").change(function() {
+                    $(":text").val($("img").attr('src'));
+                });
             });
         </script>
     </head>
@@ -43,37 +50,52 @@
                              style.backgroundColor = 'black'">Events</a></li>
                
             </ul>
+              <div id="color">
+               <p><img src="images/jeita.jpg" alt="webimage" 
+                height="390" width="500"/></p>
+        <label><input type="radio" name="webradios" checked
+                      onchange="$('img').attr('src', 'images/jeita.jpg')"/>grotto jeita</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/naherkaleb-hist.jpg')"/>french effects at nahr kaleb</label>
+        <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/nahribrahim.jpg')"/>naher ibrahim</label>
+               <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/Lebanon-Faqra.jpg')"/>faqra lebanon</label>
+               <label><input type="radio" name="webradios"
+                      onchange="$('img').attr('src', 'images/10.jpg')"/>moudaraj el rouman zook</label>
+               <label><input type="radio" name="webradios" onchange="$('img').attr('src', 'images/gis.PNG')"/>keserwen graphic for lebanon</label>
+        
+              </div>
               <div id="his">
-                   <h2>keserwen graphic for lebanon</h2>
-                   <a href="images/gis.PNG" title="keserwen"> <img src="images/gis.PNG" alt="keserwan" height="250" width="350" target="_blank"/> </a>
-            <h2>grotto jeita</h2>
-             <img src="images/jeita.jpg" alt="keserwan" height="190" width="300" />
-             <h2>mosque in keserwen</h2>
-             <img src="images/jeme3.jpg" alt="keserwan" height="190" width="300" />
-              <h2>jroud keserwan </h2>
-             <img src="images/jurd.jpg" alt="keserwan" height="190" width="300" />
-             <h2>the effects of the french in naher kaleb</h2>
-             <img src="images/naherkaleb-hist.jpg" alt="keserwan" height="190" width="300" />
-            <h2>flow of naher kaleb</h2>
-             <img src="images/nahrkaleb.jpg" alt="keserwan" height="190" width="300" />
-             <h2>naher ibrahim</h2>
-             <img src="images/nahribrahim.jpg" alt="keserwan" height="190" width="300" />
-             <h2>faqra lebanon</h2>
-             <img src="images/Lebanon-Faqra.jpg" alt="keserwan" height="190" width="300" />
-             <h2>faqra ruins lebanon</h2>
-<img src="images/faqra-ruins.jpg" alt="keserwan" height="190" width="300" />
-<h2>safra rock</h2>
-<img src="images/rabieh-safra.jpg" alt="keserwan" height="190" width="300" />
-<h2>moudaraj el rouman zook</h2>
-<img src="images/10.jpg" alt="keserwan" height="190" width="300" />
-<h2>President Fouad CHEHAB</h2>
-             <img src="images/fouad-chehab.jpg" alt="keserwan" height="190" width="300" />
-             <pre> Fouad CHEHAB
-19 March 1902
-Ghazir, Keserwan
-3rd President of Lebanon
-
-</pre>
+                  <pre>
+                      <h3>Cities, Towns, and Villages</h3>
+Adma                      Ain El Delbeh
+Aintoura                  Ajaltoun
+Aramoun                   Ashqout
+Aazra                     Bkerké
+Ballouneh                 Batha
+Becharry                  Bezhel
+Bqaatouta                 Bzoummar                  
+Chahtoul                  chnaniir
+Daraya                    Daroun
+Dlebta                    Faitroun
+Faraya                    Ghazir
+Ghebaleh                  Ghineh
+Ghosta                    Harissa
+Hrajel                    Jeita
+Jounieh                   Jouret Bedran
+Jouret el Termos          Jwar El Hous
+Jouret  Mhad              Kfaryassine
+Kaslik                    Kfardebian
+Kfour                     Kleiat
+Mayrouba                  Nammoura
+Okaibe                    Rayfoun
+Safra                     Sahel Alma
+Sarba                     Sehaileh
+Tabarja                   Yahchouch
+Zouk Mikael               Zouk Mosbeh
+                  </pre>
+               <div id="top1"><a href="#" target="_top">go to top</a></div>
               </div>
                <div id="img1">
                 
@@ -90,19 +112,7 @@ Ghazir, Keserwan
         </a>
            
             </div>
-              <div id="top"><a href="#" target="_top">go to top</a></div>  
-              <pre id="text">
- Keserwan(Qadaa' Keserwèn) 
-(Arabic قضاء كسروان)is a district 
- in the Mount Lebanon Governorate
- (محافظة جبل لبنان‎), Lebanon,
- to the northeast of Lebanon's 
-capital Beirut.
- The capital, Jounieh,
-is overwhelmingly Maronite Christian.
- The area is home 
-to the Jabal Moussa Biosphere Reserve.
-              </pre>
+             
          </div>
     </body>
 </html>
