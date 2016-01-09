@@ -17,7 +17,16 @@
                $("#p2").css("font-size","40px"); 
             });
         </script>
-       
+       <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("a[title='university']").css("font-style","italic");
+                $("p[class]").css("color","red");
+                $("a[href^='ftp']").css("background-color","blue");
+                $("a[href*='edu']").css("color","orange");
+                $("a[href$='pdf']").css("color","green");
+            });
+        </script>
       <style>
             #mydiv{
                
@@ -50,8 +59,8 @@
                 <p id="p1" onmouseover="this.style.color='white'">KESERWAN-LEBANON</p>
                 
                 <p id="p2" onmouseover="this.style.color='white'">2015-2016</p>
-                <a title="merry christmas"><img src="images/redsapin.jpg" alt="christmas" height="150" width="250" /></a>
-                <p id="more">Merry/christmas#keserwan</p>
+                <a title="happy new year"><img src="images/redsapin.jpg" alt="christmas" height="150" width="250" /></a>
+                <p id="more">happy/newyear#keserwan</p>
                 
                 <script>
                     var coloring;
@@ -130,6 +139,15 @@
                 <a href="http://www.zgheib.com/" target="_blank">
                         <img src="images/nakhlezgheib.jpg" alt="zgheib" height="200" width="350"/>
         </a>
+            </div>
+            <div id="uni">
+                <h3>university of keserwan</h3>
+             <p><a href="http://www.lcu.edu.lb" title="university">
+               lebanese canadienne university</a> </p>
+        <p><a href="http://www.ndu.edu.lb" title="university">
+                notre dame university louaize</a> </p>
+        <p><a href="http://www.usek.edu.lb" title="university">
+                Holy Spirit University of Kaslik</a> </p>
             </div>
         </div>
     </body>
